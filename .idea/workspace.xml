@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da94da16-a297-401e-a608-b43d76e97b18" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JS中的运动/10.运动框架加入缓存.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/11.多图片展开、收缩.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/12.图片的展开和收缩.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/9.css解析和js解析.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/img/9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS中的运动/move.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS中的运动/7.摩擦运动.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS中的运动/7.摩擦运动.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS中的运动/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS中的运动/8.缓冲运动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS中的运动/13.代运动效果的留言板.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,15 +25,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.摩擦运动.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS中的运动/7.摩擦运动.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="8.缓冲运动.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS中的运动/8.缓冲运动.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,6 +42,15 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.代运动效果的留言板.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS中的运动/13.代运动效果的留言板.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -98,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.图片的展开和收缩.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12.图片的展开和收缩.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS中的运动/12.图片的展开和收缩.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
@@ -148,6 +132,7 @@
         <option value="$PROJECT_DIR$/JS中的运动/move.js" />
         <option value="$PROJECT_DIR$/JS中的运动/11.多图片展开、收缩.html" />
         <option value="$PROJECT_DIR$/JS中的运动/12.图片的展开和收缩.html" />
+        <option value="$PROJECT_DIR$/JS中的运动/13.代运动效果的留言板.html" />
       </list>
     </option>
   </component>
@@ -160,7 +145,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="611" />
     <option name="y" value="18" />
     <option name="width" value="768" />
@@ -181,6 +166,11 @@
             <path>
               <item name="sport" type="b2602c69:ProjectViewProjectNode" />
               <item name="sport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sport" type="462c0819:PsiDirectoryNode" />
+              <item name="JS中的运动" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,12 +213,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534901044416</updated>
-      <workItem from="1534901045693" duration="13900000" />
+      <workItem from="1534901045693" duration="14424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13900000" />
+    <option name="totallyTimeSpent" value="14424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -280,23 +270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS中的运动/9.css解析和js解析.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS中的运动/8.缓冲运动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS中的运动/6.运动回调.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="848">
@@ -341,6 +314,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS中的运动/8.缓冲运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS中的运动/9.css解析和js解析.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS中的运动/13.代运动效果的留言板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
