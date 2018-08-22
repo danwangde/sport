@@ -2,26 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>缓冲运动</title>
     <style>
         #div1{
             width:100px;height:100px;background: red;position: absolute;
-            top:40px;left:0;
+            top:40px;left:0px;
         }
     </style>
     <script>
         //摩擦，减速：速度越来越慢。
+        //越接近目标点速度越来越小。
+        /*速度由距离决定，
+        速度=（目标值-当前值）/缩放系数
+         bug:速度取整   值取整*/
         window.onload=function () {
             var oDiv=document.getElementById('div1');
             var oBtn=document.getElementById('btn');
             var iTimer=null;
-            var iSpeed=50;
             oBtn.onclick=function () {
 
                 clearInterval(iTimer);
+                var iSpeed=0;
 
                 iTimer = setInterval(function () {
-                    iSpeed -= 2;
+                    iSpeed=(500-oDiv.offsetLeft)/8;
+            //运动的时候速度值小于0.5的时候，四舍五入的offsetleft和上面一样。所以把速度进行向上取整。
+
+                    iSpeed= iSpeed > 0 ?Math.ceil(iSpeed):Math.floor(iSpeed);
+                    console.log(oDiv.offsetLeft+':'+iSpeed);
                     if (oDiv.offsetLeft == 500) {
                         clearInterval(iTimer);
                     } else {

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css和js解析</title>
+    <style>
+        #div1{
+            /*width:100px;height:100px;background: red;position: absolute;
+            top:40px;left:0;*/
+        }
+        /*1.任何支持style特性的HTML元素在JS中都一个对应的style属性，该属性包含通过
+          HTML的style特性指定的所有样式信息，但不包含外部样式表或者嵌入样式表经层叠而来的样式
+          。所以行内可以访问，下载嵌入样式表中就不行。
+          2.css中是认小数的，js里面的offsetwidth是四舍五入得到的*/
+    </style>
+    <script>
+        window.onload=function () {
+            var oDiv=document.getElementById('div1');
+            alert(oDiv.style.width);
+            alert(oDiv.offsetWidth);//四舍五入运算后得到的
+        }
+
+
+    </script>
+</head>
+<body>
+<input type="button" id="btn" value="按钮">
+<div id="div1" style="width:100.6px;height:100px;background: red;position: absolute;
+            top:40px;left:0;"></div>
+</body>
+</html>
