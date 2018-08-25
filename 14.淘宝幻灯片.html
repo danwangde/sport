@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            margin: 0;padding: 0;
+        }
+        #div1{
+            width:520px;height: 280px;border: 1px solid #000000;position: relative;
+            margin: 100px auto;overflow: hidden;
+        }
+        #ul1{
+            position: absolute;top:0;left: 0;margin: 0;padding: 0;width: 3120px;
+        }
+        #ul1 li{
+            list-style: none;float: left;
+        }
+        #p1{
+            position: absolute;bottom: 8px;width:100%;text-align: center;
+        }
+        #p1 span{
+            padding: 2px 12px;border-radius: 50%;background: #cccccc;cursor: pointer;
+            margin-right: 4px;
+        }
+        #p1 span.active{
+            background: #ff6600;
+        }
+    </style>
+    <script src="move.js"></script>
+    <script>
+        window.onload=function () {
+            var oDiv=document.getElementById('div1');
+            var oUl1=document.getElementById('ul1');
+            var oP=document.getElementById('p1');
+            var aLi=oUl1.getElementsByTagName('li');
+            var aSpan=oP.getElementsByTagName('span');
+
+            var len=aLi.length;
+            var iWidth=aLi[0].offsetWidth;
+
+            for (var i=0;i<len;i++){
+                aSpan[i].index=i;
+                aSpan[i].onclick=function () {
+                    for (var i=0;i<len;i++){
+                        aSpan[i].className='';
+                    }
+                    this.className='active';
+                    doMove(oUl1,{
+                        left:-this.index*iWidth
+                    })
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="div1">
+    <ul id="ul1">
+        <li><img src="img/taobao1.jpg" alt=""></li>
+        <li><img src="img/taobao2.jpg" alt=""></li>
+        <li><img src="img/taobao3.jpg" alt=""></li>
+        <li><img src="img/taobao4.jpg" alt=""></li>
+        <li><img src="img/taobao5.jpg" alt=""></li>
+        <li><img src="img/taobao6.jpg" alt=""></li>
+    </ul>
+    <p id="p1">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </p>
+</div>
+</body>
+</html>
