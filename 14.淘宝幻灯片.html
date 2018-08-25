@@ -41,6 +41,8 @@
             var iWidth=aLi[0].offsetWidth;
             
             oUl1.style.width=iWidth*len+'px';
+            oUl1.style.opacity='0.3';
+            oUl1.style.filter='alpha(opacity=30)';
 
             for (var i=0;i<len;i++){
                 aSpan[i].index=i;
@@ -50,7 +52,8 @@
                     }
                     this.className='active';
                     doMove(oUl1,{
-                        left:-this.index*iWidth
+                        left:-this.index*iWidth,
+                        opacity:100
                     })
                 }
             }
