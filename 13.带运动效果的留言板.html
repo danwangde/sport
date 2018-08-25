@@ -3,8 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        #ul1{
+            width:500px;border:1px solid #000;position: absolute;
+            top:10px;right: 10px;padding: 20px;overflow: hidden;
+        }
+        #ul1 li{
+            list-style: none;line-height: 28px;border-bottom: 1px dotted #ff6600 ;
+            overflow: hidden;
+            /*word-break: break-all;*/
+        }
+    </style>
+    <script src="move.js"></script>
+    <script>
+        window.onload=function () {
+            var oContent=document.getElementById('content');
+            var oUl=document.getElementById('ul1');
+            var oBtn=document.getElementById('btn');
+            var aLi=oUl.getElementsByTagName('li');
+           
+            oBtn.onclick=function () {
+                var oLi=document.createElement('li');
+                oLi.innerHTML=oContent.value;
+
+                oUl.children[0] ? oUl.insertBefore(oLi,oUl.children[0]) : oUl.appendChild(oLi);
+                var iHeight=parseInt(css(oLi,'height'));
+                oLi.style.height='0px';
+
+                doMove(oLi,{
+                    height:iHeight
+                })
+            }
+        }
+    </script>
 </head>
 <body>
-
+<textarea name="liuyan" id="content" cols="50" rows="10"></textarea>
+<ul id="ul1"></ul>
+<input type="button" id="btn" value="按钮">
 </body>
 </html>
